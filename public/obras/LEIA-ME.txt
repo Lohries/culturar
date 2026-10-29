@@ -1,0 +1,6 @@
+Coloque aqui as imagens das obras (opcional, mas recomendado):
+
+  independencia-ou-morte.jpg               a pintura (sem isso o app busca no Wikimedia Commons)
+  independencia-ou-morte-profundidade.png  mapa de profundidade gerado em #/painel (sem isso a IA roda no celular do visitante)
+
+O nome do arquivo é o "id" da obra em src/obras.js.
