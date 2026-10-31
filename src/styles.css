@@ -235,6 +235,7 @@ a { color: var(--ouro-claro); }
 .v-chip.aprovado { background: rgba(143, 194, 138, 0.18); color: #8fc28a; }
 .v-chip.ressalvas { background: rgba(226, 180, 92, 0.18); color: #e2b45c; }
 .v-chip.reprovado { background: rgba(224, 122, 98, 0.18); color: #e07a62; }
+.v-chip.exemplo { margin-left: 8px; background: rgba(241, 232, 217, 0.1); color: var(--suave); font-family: var(--mono); font-weight: 500; }
 .v-link { background: none; border: 0; padding: 0; color: var(--suave); font: 600 0.8rem var(--texto); cursor: pointer; text-decoration: underline; }
 .v-link.perigo { color: #e07a62; }
 .v-confirma { display: inline-flex; gap: 10px; white-space: nowrap; }

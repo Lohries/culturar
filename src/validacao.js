@@ -134,6 +134,19 @@ export function apagarTeste(id) {
   gravar(CHAVE_TESTES, todos);
   return todos;
 }
+// Dados fictícios para ver o histórico preenchido durante o desenvolvimento (marcados com exemplo: true).
+export async function carregarExemplos() {
+  const { default: exemplos } = await import("./validacao-exemplos.json");
+  const todos = [...lerTestes().filter((t) => !t.exemplo), ...exemplos];
+  gravar(CHAVE_TESTES, todos);
+  return todos;
+}
+export function removerExemplos() {
+  const todos = lerTestes().filter((t) => !t.exemplo);
+  gravar(CHAVE_TESTES, todos);
+  return todos;
+}
+
 export const lerRascunho = () => ler(CHAVE_RASCUNHO, null);
 export const gravarRascunho = (r) => gravar(CHAVE_RASCUNHO, r);
 export const limparRascunho = () => { try { localStorage.removeItem(CHAVE_RASCUNHO); } catch { /* sem storage */ } };

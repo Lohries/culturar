@@ -3,7 +3,7 @@ import { OBRAS } from "../obras.js";
 import {
   ETAPAS, TODOS_ITENS, ESCALAS, RESULTADOS, VEREDITOS,
   lerDiagnostico, limparDiagnostico, detectarAparelho, iniciarValidacao, encerrarValidacao,
-  lerTestes, salvarTeste, apagarTeste, lerRascunho, gravarRascunho, limparRascunho, paraCSV,
+  lerTestes, salvarTeste, apagarTeste, carregarExemplos, removerExemplos, lerRascunho, gravarRascunho, limparRascunho, paraCSV,
 } from "../validacao.js";
 
 /*
@@ -110,6 +110,9 @@ export default function Validacao() {
         <div className="acoes">
           <button className="btn ouro grande" onClick={comecar}>Começar teste</button>
           <a className="btn" href="#/">Acervo</a>
+          {import.meta.env.DEV && (testes.some((t) => t.exemplo)
+            ? <button className="btn" onClick={() => setTestes(removerExemplos())}>Remover dados de exemplo</button>
+            : <button className="btn" onClick={async () => setTestes(await carregarExemplos())}>Carregar dados de exemplo</button>)}
         </div>
       </header>
 
@@ -333,7 +336,7 @@ function Historico({ testes, setTestes }) {
               return (
                 <tr key={t.id}>
                   <td className="n">{new Date(t.criadoEm).toLocaleString("pt-BR", { day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit" })}</td>
-                  <td>{t.testador || "—"}</td>
+                  <td>{t.testador || "—"}{t.exemplo && <span className="v-chip exemplo">exemplo</span>}</td>
                   <td>{t.aparelho} · {t.navegador}</td>
                   <td className="n">{ok}/{rs.length}</td>
                   <td><span className={`v-chip ${t.veredito}`}>{rotVeredito[t.veredito]}</span></td>

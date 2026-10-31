@@ -1,0 +1,1406 @@
+[
+ {
+  "testador": "Gustavo Nunes",
+  "papel": "dev",
+  "aparelho": "Notebook Dell + webcam",
+  "sistema": "Computador",
+  "navegador": "Chrome",
+  "rede": "Wi-Fi local (teste)",
+  "endereco": "localhost",
+  "primeiraVisita": true,
+  "tempoCarregar": 1.8,
+  "fonteProfundidade": "ia",
+  "criadoEm": "2026-10-28T09:30:00-03:00",
+  "veredito": "ressalvas",
+  "gostou": "IA de profundidade rodou em uns 20 s.",
+  "problemas": "",
+  "sugestoes": "Gerar o PNG de profundidade antes de publicar.",
+  "id": "exemplo-20261028T093000",
+  "exemplo": true,
+  "obra": "independencia-ou-morte",
+  "itens": {
+   "qr-nativo": {
+    "r": "na",
+    "nota": ""
+   },
+   "qr-interno": {
+    "r": "na",
+    "nota": ""
+   },
+   "qr-estranho": {
+    "r": "na",
+    "nota": ""
+   },
+   "ent-imagem": {
+    "r": "ok",
+    "nota": ""
+   },
+   "ent-permissoes": {
+    "r": "ok",
+    "nota": ""
+   },
+   "por-camera": {
+    "r": "na",
+    "nota": ""
+   },
+   "por-atravessar": {
+    "r": "ok",
+    "nota": ""
+   },
+   "por-pular": {
+    "r": "ok",
+    "nota": ""
+   },
+   "por-3d": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-frente": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-girar": {
+    "r": "na",
+    "nota": "Computador: só arrastando com o mouse."
+   },
+   "den-prof": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-pontos": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-folha": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-fluidez": {
+    "r": "ok",
+    "nota": ""
+   },
+   "sel-liga": {
+    "r": "ok",
+    "nota": ""
+   },
+   "sel-recorte": {
+    "r": "ok",
+    "nota": ""
+   },
+   "sel-fundo": {
+    "r": "ok",
+    "nota": ""
+   },
+   "fot-etiqueta": {
+    "r": "ok",
+    "nota": ""
+   },
+   "fot-espelho": {
+    "r": "ok",
+    "nota": ""
+   },
+   "fot-compartilhar": {
+    "r": "parcial",
+    "nota": "Baixou o arquivo, sem menu."
+   },
+   "fot-salvar": {
+    "r": "ok",
+    "nota": ""
+   }
+  },
+  "notas": {
+   "facilidade": 4,
+   "imersao": 3,
+   "velocidade": 3,
+   "recomendaria": 4
+  },
+  "ua": "(dado fictício)"
+ },
+ {
+  "testador": "Aline Carvalho",
+  "papel": "equipe",
+  "aparelho": "Galaxy A34",
+  "sistema": "Android",
+  "navegador": "Chrome",
+  "rede": "Wi-Fi do museu",
+  "endereco": "publicado",
+  "primeiraVisita": false,
+  "tempoCarregar": 2.9,
+  "fonteProfundidade": "arquivo",
+  "criadoEm": "2026-10-27T10:00:00-03:00",
+  "veredito": "aprovado",
+  "gostou": "Rápido na segunda visita.",
+  "problemas": "",
+  "sugestoes": "Instrução na placa: 'toque no link que aparecer'.",
+  "id": "exemplo-20261027T100000",
+  "exemplo": true,
+  "obra": "independencia-ou-morte",
+  "itens": {
+   "qr-nativo": {
+    "r": "parcial",
+    "nota": "Câmera nativa abriu o Google Lens antes do link."
+   },
+   "qr-interno": {
+    "r": "ok",
+    "nota": ""
+   },
+   "qr-estranho": {
+    "r": "ok",
+    "nota": ""
+   },
+   "ent-imagem": {
+    "r": "ok",
+    "nota": ""
+   },
+   "ent-permissoes": {
+    "r": "ok",
+    "nota": ""
+   },
+   "por-camera": {
+    "r": "ok",
+    "nota": ""
+   },
+   "por-atravessar": {
+    "r": "ok",
+    "nota": ""
+   },
+   "por-pular": {
+    "r": "ok",
+    "nota": ""
+   },
+   "por-3d": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-frente": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-girar": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-prof": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-pontos": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-folha": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-fluidez": {
+    "r": "ok",
+    "nota": ""
+   },
+   "sel-liga": {
+    "r": "ok",
+    "nota": ""
+   },
+   "sel-recorte": {
+    "r": "ok",
+    "nota": ""
+   },
+   "sel-fundo": {
+    "r": "ok",
+    "nota": ""
+   },
+   "fot-etiqueta": {
+    "r": "ok",
+    "nota": ""
+   },
+   "fot-espelho": {
+    "r": "na",
+    "nota": ""
+   },
+   "fot-compartilhar": {
+    "r": "ok",
+    "nota": ""
+   },
+   "fot-salvar": {
+    "r": "ok",
+    "nota": ""
+   }
+  },
+  "notas": {
+   "facilidade": 4,
+   "imersao": 5,
+   "velocidade": 4,
+   "recomendaria": 5
+  },
+  "ua": "(dado fictício)"
+ },
+ {
+  "testador": "Thiago Ribeiro",
+  "papel": "visitante",
+  "aparelho": "Redmi Note 12",
+  "sistema": "Android",
+  "navegador": "Chrome",
+  "rede": "4G",
+  "endereco": "publicado",
+  "primeiraVisita": true,
+  "tempoCarregar": 9.6,
+  "fonteProfundidade": "arquivo",
+  "criadoEm": "2026-10-25T13:10:00-03:00",
+  "veredito": "aprovado",
+  "gostou": "Foto com a etiqueta do museu.",
+  "problemas": "",
+  "sugestoes": "",
+  "id": "exemplo-20261025T131000",
+  "exemplo": true,
+  "obra": "independencia-ou-morte",
+  "itens": {
+   "qr-nativo": {
+    "r": "ok",
+    "nota": ""
+   },
+   "qr-interno": {
+    "r": "ok",
+    "nota": ""
+   },
+   "qr-estranho": {
+    "r": "na",
+    "nota": ""
+   },
+   "ent-imagem": {
+    "r": "ok",
+    "nota": ""
+   },
+   "ent-permissoes": {
+    "r": "ok",
+    "nota": ""
+   },
+   "por-camera": {
+    "r": "ok",
+    "nota": ""
+   },
+   "por-atravessar": {
+    "r": "ok",
+    "nota": ""
+   },
+   "por-pular": {
+    "r": "na",
+    "nota": ""
+   },
+   "por-3d": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-frente": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-girar": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-prof": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-pontos": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-folha": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-fluidez": {
+    "r": "parcial",
+    "nota": "Algumas engasgadas ao virar rápido."
+   },
+   "sel-liga": {
+    "r": "ok",
+    "nota": ""
+   },
+   "sel-recorte": {
+    "r": "ok",
+    "nota": ""
+   },
+   "sel-fundo": {
+    "r": "ok",
+    "nota": ""
+   },
+   "fot-etiqueta": {
+    "r": "ok",
+    "nota": ""
+   },
+   "fot-espelho": {
+    "r": "ok",
+    "nota": ""
+   },
+   "fot-compartilhar": {
+    "r": "ok",
+    "nota": ""
+   },
+   "fot-salvar": {
+    "r": "ok",
+    "nota": ""
+   }
+  },
+  "notas": {
+   "facilidade": 5,
+   "imersao": 4,
+   "velocidade": 3,
+   "recomendaria": 4
+  },
+  "ua": "(dado fictício)"
+ },
+ {
+  "testador": "Fernanda Oliveira",
+  "papel": "equipe",
+  "aparelho": "iPhone SE (2ª geração)",
+  "sistema": "iOS",
+  "navegador": "Safari",
+  "rede": "Wi-Fi do museu",
+  "endereco": "publicado",
+  "primeiraVisita": true,
+  "tempoCarregar": 8.7,
+  "fonteProfundidade": "arquivo",
+  "criadoEm": "2026-10-24T10:35:00-03:00",
+  "veredito": "ressalvas",
+  "gostou": "Texto dos pontos é curto e bom de ler.",
+  "problemas": "Sem jeito de pedir a permissão de movimento outra vez.",
+  "sugestoes": "Botão para pedir o movimento de novo.",
+  "id": "exemplo-20261024T103500",
+  "exemplo": true,
+  "obra": "independencia-ou-morte",
+  "itens": {
+   "qr-nativo": {
+    "r": "ok",
+    "nota": ""
+   },
+   "qr-interno": {
+    "r": "ok",
+    "nota": ""
+   },
+   "qr-estranho": {
+    "r": "na",
+    "nota": ""
+   },
+   "ent-imagem": {
+    "r": "ok",
+    "nota": ""
+   },
+   "ent-permissoes": {
+    "r": "parcial",
+    "nota": "Neguei o movimento sem querer e não deu para pedir de novo."
+   },
+   "por-camera": {
+    "r": "ok",
+    "nota": ""
+   },
+   "por-atravessar": {
+    "r": "ok",
+    "nota": ""
+   },
+   "por-pular": {
+    "r": "ok",
+    "nota": ""
+   },
+   "por-3d": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-frente": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-girar": {
+    "r": "falha",
+    "nota": "Só funcionou arrastando, porque o movimento ficou negado."
+   },
+   "den-prof": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-pontos": {
+    "r": "parcial",
+    "nota": "Na tela pequena os pontos tampam o rosto do D. Pedro."
+   },
+   "den-folha": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-fluidez": {
+    "r": "ok",
+    "nota": ""
+   },
+   "sel-liga": {
+    "r": "ok",
+    "nota": ""
+   },
+   "sel-recorte": {
+    "r": "ok",
+    "nota": ""
+   },
+   "sel-fundo": {
+    "r": "ok",
+    "nota": ""
+   },
+   "fot-etiqueta": {
+    "r": "ok",
+    "nota": ""
+   },
+   "fot-espelho": {
+    "r": "ok",
+    "nota": ""
+   },
+   "fot-compartilhar": {
+    "r": "ok",
+    "nota": ""
+   },
+   "fot-salvar": {
+    "r": "ok",
+    "nota": ""
+   }
+  },
+  "notas": {
+   "facilidade": 3,
+   "imersao": 3,
+   "velocidade": 4,
+   "recomendaria": 3
+  },
+  "ua": "(dado fictício)"
+ },
+ {
+  "testador": "Pedro Santos",
+  "papel": "dev",
+  "aparelho": "Pixel 7",
+  "sistema": "Android",
+  "navegador": "Firefox",
+  "rede": "Wi-Fi local (teste)",
+  "endereco": "rede-local",
+  "primeiraVisita": false,
+  "tempoCarregar": 2.6,
+  "fonteProfundidade": "cache",
+  "criadoEm": "2026-10-23T17:20:00-03:00",
+  "veredito": "ressalvas",
+  "gostou": "",
+  "problemas": "Compartilhar não existe no Firefox Android.",
+  "sugestoes": "Esconder o botão Compartilhar quando não houver suporte.",
+  "id": "exemplo-20261023T172000",
+  "exemplo": true,
+  "obra": "independencia-ou-morte",
+  "itens": {
+   "qr-nativo": {
+    "r": "ok",
+    "nota": ""
+   },
+   "qr-interno": {
+    "r": "parcial",
+    "nota": "Firefox sem BarcodeDetector; o jsQR leu, mas devagar."
+   },
+   "qr-estranho": {
+    "r": "ok",
+    "nota": ""
+   },
+   "ent-imagem": {
+    "r": "ok",
+    "nota": ""
+   },
+   "ent-permissoes": {
+    "r": "ok",
+    "nota": ""
+   },
+   "por-camera": {
+    "r": "ok",
+    "nota": ""
+   },
+   "por-atravessar": {
+    "r": "ok",
+    "nota": ""
+   },
+   "por-pular": {
+    "r": "ok",
+    "nota": ""
+   },
+   "por-3d": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-frente": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-girar": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-prof": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-pontos": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-folha": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-fluidez": {
+    "r": "ok",
+    "nota": ""
+   },
+   "sel-liga": {
+    "r": "ok",
+    "nota": ""
+   },
+   "sel-recorte": {
+    "r": "ok",
+    "nota": ""
+   },
+   "sel-fundo": {
+    "r": "ok",
+    "nota": ""
+   },
+   "fot-etiqueta": {
+    "r": "ok",
+    "nota": ""
+   },
+   "fot-espelho": {
+    "r": "ok",
+    "nota": ""
+   },
+   "fot-compartilhar": {
+    "r": "parcial",
+    "nota": "Sem menu de compartilhar, baixou o arquivo."
+   },
+   "fot-salvar": {
+    "r": "ok",
+    "nota": ""
+   }
+  },
+  "notas": {
+   "facilidade": 4,
+   "imersao": 4,
+   "velocidade": 4,
+   "recomendaria": 4
+  },
+  "ua": "(dado fictício)"
+ },
+ {
+  "testador": "Juliana Ferreira",
+  "papel": "visitante",
+  "aparelho": "iPhone 15 Pro",
+  "sistema": "iOS",
+  "navegador": "Safari",
+  "rede": "5G",
+  "endereco": "publicado",
+  "primeiraVisita": true,
+  "tempoCarregar": 3.4,
+  "fonteProfundidade": "arquivo",
+  "criadoEm": "2026-10-23T11:00:00-03:00",
+  "veredito": "aprovado",
+  "gostou": "Parece mesmo que estou dentro do quadro.",
+  "problemas": "",
+  "sugestoes": "Poder escolher onde ficar na cena para a selfie.",
+  "id": "exemplo-20261023T110000",
+  "exemplo": true,
+  "obra": "independencia-ou-morte",
+  "itens": {
+   "qr-nativo": {
+    "r": "ok",
+    "nota": ""
+   },
+   "qr-interno": {
+    "r": "ok",
+    "nota": ""
+   },
+   "qr-estranho": {
+    "r": "na",
+    "nota": ""
+   },
+   "ent-imagem": {
+    "r": "ok",
+    "nota": ""
+   },
+   "ent-permissoes": {
+    "r": "ok",
+    "nota": ""
+   },
+   "por-camera": {
+    "r": "ok",
+    "nota": ""
+   },
+   "por-atravessar": {
+    "r": "ok",
+    "nota": ""
+   },
+   "por-pular": {
+    "r": "ok",
+    "nota": ""
+   },
+   "por-3d": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-frente": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-girar": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-prof": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-pontos": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-folha": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-fluidez": {
+    "r": "ok",
+    "nota": ""
+   },
+   "sel-liga": {
+    "r": "ok",
+    "nota": ""
+   },
+   "sel-recorte": {
+    "r": "ok",
+    "nota": ""
+   },
+   "sel-fundo": {
+    "r": "ok",
+    "nota": ""
+   },
+   "fot-etiqueta": {
+    "r": "ok",
+    "nota": ""
+   },
+   "fot-espelho": {
+    "r": "ok",
+    "nota": ""
+   },
+   "fot-compartilhar": {
+    "r": "ok",
+    "nota": ""
+   },
+   "fot-salvar": {
+    "r": "ok",
+    "nota": ""
+   }
+  },
+  "notas": {
+   "facilidade": 5,
+   "imersao": 5,
+   "velocidade": 5,
+   "recomendaria": 5
+  },
+  "ua": "(dado fictício)"
+ },
+ {
+  "testador": "Lucas Pereira",
+  "papel": "visitante",
+  "aparelho": "Galaxy A14",
+  "sistema": "Android",
+  "navegador": "Chrome",
+  "rede": "4G",
+  "endereco": "publicado",
+  "primeiraVisita": true,
+  "tempoCarregar": 19.3,
+  "fonteProfundidade": "arquivo",
+  "criadoEm": "2026-10-22T14:15:00-03:00",
+  "veredito": "reprovado",
+  "gostou": "A ideia é ótima.",
+  "problemas": "Celular básico não aguenta a selfie.",
+  "sugestoes": "Ativar o modo leve automaticamente em aparelhos fracos.",
+  "id": "exemplo-20261022T141500",
+  "exemplo": true,
+  "obra": "independencia-ou-morte",
+  "itens": {
+   "qr-nativo": {
+    "r": "ok",
+    "nota": ""
+   },
+   "qr-interno": {
+    "r": "ok",
+    "nota": ""
+   },
+   "qr-estranho": {
+    "r": "na",
+    "nota": ""
+   },
+   "ent-imagem": {
+    "r": "ok",
+    "nota": ""
+   },
+   "ent-permissoes": {
+    "r": "ok",
+    "nota": ""
+   },
+   "por-camera": {
+    "r": "ok",
+    "nota": ""
+   },
+   "por-atravessar": {
+    "r": "ok",
+    "nota": ""
+   },
+   "por-pular": {
+    "r": "na",
+    "nota": ""
+   },
+   "por-3d": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-frente": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-girar": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-prof": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-pontos": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-folha": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-fluidez": {
+    "r": "falha",
+    "nota": "Travando bastante dentro da cena."
+   },
+   "sel-liga": {
+    "r": "ok",
+    "nota": ""
+   },
+   "sel-recorte": {
+    "r": "falha",
+    "nota": "Recorte atrasado e cheio de buracos."
+   },
+   "sel-fundo": {
+    "r": "parcial",
+    "nota": "Muda, mas com muito atraso."
+   },
+   "fot-etiqueta": {
+    "r": "ok",
+    "nota": ""
+   },
+   "fot-espelho": {
+    "r": "ok",
+    "nota": ""
+   },
+   "fot-compartilhar": {
+    "r": "ok",
+    "nota": ""
+   },
+   "fot-salvar": {
+    "r": "ok",
+    "nota": ""
+   }
+  },
+  "notas": {
+   "facilidade": 3,
+   "imersao": 3,
+   "velocidade": 1,
+   "recomendaria": 2
+  },
+  "ua": "(dado fictício)"
+ },
+ {
+  "testador": "Camila Rocha",
+  "papel": "equipe",
+  "aparelho": "Galaxy S23",
+  "sistema": "Android",
+  "navegador": "Samsung Internet",
+  "rede": "Wi-Fi do museu",
+  "endereco": "publicado",
+  "primeiraVisita": true,
+  "tempoCarregar": 6.1,
+  "fonteProfundidade": "arquivo",
+  "criadoEm": "2026-10-22T09:50:00-03:00",
+  "veredito": "ressalvas",
+  "gostou": "Imagem muito nítida na tela grande.",
+  "problemas": "Giro com saltos no Samsung Internet.",
+  "sugestoes": "Testar no Chrome do mesmo aparelho para comparar.",
+  "id": "exemplo-20261022T095000",
+  "exemplo": true,
+  "obra": "independencia-ou-morte",
+  "itens": {
+   "qr-nativo": {
+    "r": "ok",
+    "nota": ""
+   },
+   "qr-interno": {
+    "r": "parcial",
+    "nota": "Demorou uns 4 segundos para reconhecer."
+   },
+   "qr-estranho": {
+    "r": "ok",
+    "nota": ""
+   },
+   "ent-imagem": {
+    "r": "ok",
+    "nota": ""
+   },
+   "ent-permissoes": {
+    "r": "ok",
+    "nota": ""
+   },
+   "por-camera": {
+    "r": "ok",
+    "nota": ""
+   },
+   "por-atravessar": {
+    "r": "ok",
+    "nota": ""
+   },
+   "por-pular": {
+    "r": "ok",
+    "nota": ""
+   },
+   "por-3d": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-frente": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-girar": {
+    "r": "parcial",
+    "nota": "Vista dá pequenos saltos ao girar rápido."
+   },
+   "den-prof": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-pontos": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-folha": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-fluidez": {
+    "r": "ok",
+    "nota": ""
+   },
+   "sel-liga": {
+    "r": "ok",
+    "nota": ""
+   },
+   "sel-recorte": {
+    "r": "ok",
+    "nota": ""
+   },
+   "sel-fundo": {
+    "r": "ok",
+    "nota": ""
+   },
+   "fot-etiqueta": {
+    "r": "ok",
+    "nota": ""
+   },
+   "fot-espelho": {
+    "r": "ok",
+    "nota": ""
+   },
+   "fot-compartilhar": {
+    "r": "parcial",
+    "nota": "Abriu o menu, mas o WhatsApp não recebeu a imagem."
+   },
+   "fot-salvar": {
+    "r": "ok",
+    "nota": ""
+   }
+  },
+  "notas": {
+   "facilidade": 4,
+   "imersao": 4,
+   "velocidade": 4,
+   "recomendaria": 4
+  },
+  "ua": "(dado fictício)"
+ },
+ {
+  "testador": "Diego Martins",
+  "papel": "visitante",
+  "aparelho": "Moto G84",
+  "sistema": "Android",
+  "navegador": "Chrome",
+  "rede": "Wi-Fi do museu",
+  "endereco": "publicado",
+  "primeiraVisita": true,
+  "tempoCarregar": 7.9,
+  "fonteProfundidade": "arquivo",
+  "criadoEm": "2026-10-21T16:30:00-03:00",
+  "veredito": "aprovado",
+  "gostou": "Girar o corpo e ver a cena atrás é muito legal.",
+  "problemas": "",
+  "sugestoes": "Mais pontos de interesse.",
+  "id": "exemplo-20261021T163000",
+  "exemplo": true,
+  "obra": "independencia-ou-morte",
+  "itens": {
+   "qr-nativo": {
+    "r": "ok",
+    "nota": ""
+   },
+   "qr-interno": {
+    "r": "ok",
+    "nota": ""
+   },
+   "qr-estranho": {
+    "r": "na",
+    "nota": ""
+   },
+   "ent-imagem": {
+    "r": "ok",
+    "nota": ""
+   },
+   "ent-permissoes": {
+    "r": "ok",
+    "nota": ""
+   },
+   "por-camera": {
+    "r": "ok",
+    "nota": ""
+   },
+   "por-atravessar": {
+    "r": "ok",
+    "nota": ""
+   },
+   "por-pular": {
+    "r": "ok",
+    "nota": ""
+   },
+   "por-3d": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-frente": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-girar": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-prof": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-pontos": {
+    "r": "parcial",
+    "nota": "O ponto da casa fica um pouco à esquerda dela."
+   },
+   "den-folha": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-fluidez": {
+    "r": "ok",
+    "nota": ""
+   },
+   "sel-liga": {
+    "r": "ok",
+    "nota": ""
+   },
+   "sel-recorte": {
+    "r": "ok",
+    "nota": ""
+   },
+   "sel-fundo": {
+    "r": "ok",
+    "nota": ""
+   },
+   "fot-etiqueta": {
+    "r": "ok",
+    "nota": ""
+   },
+   "fot-espelho": {
+    "r": "ok",
+    "nota": ""
+   },
+   "fot-compartilhar": {
+    "r": "ok",
+    "nota": ""
+   },
+   "fot-salvar": {
+    "r": "ok",
+    "nota": ""
+   }
+  },
+  "notas": {
+   "facilidade": 5,
+   "imersao": 5,
+   "velocidade": 4,
+   "recomendaria": 5
+  },
+  "ua": "(dado fictício)"
+ },
+ {
+  "testador": "Beatriz Lima",
+  "papel": "visitante",
+  "aparelho": "iPhone 11",
+  "sistema": "iOS",
+  "navegador": "Safari",
+  "rede": "4G",
+  "endereco": "publicado",
+  "primeiraVisita": true,
+  "tempoCarregar": 14.5,
+  "fonteProfundidade": "falhou",
+  "criadoEm": "2026-10-21T15:05:00-03:00",
+  "veredito": "ressalvas",
+  "gostou": "A selfie com a etiqueta ficou bonita.",
+  "problemas": "Sem profundidade a imersão cai muito.",
+  "sugestoes": "Avisar quando o iOS for antigo.",
+  "id": "exemplo-20261021T150500",
+  "exemplo": true,
+  "obra": "independencia-ou-morte",
+  "itens": {
+   "qr-nativo": {
+    "r": "ok",
+    "nota": ""
+   },
+   "qr-interno": {
+    "r": "na",
+    "nota": ""
+   },
+   "qr-estranho": {
+    "r": "na",
+    "nota": ""
+   },
+   "ent-imagem": {
+    "r": "ok",
+    "nota": ""
+   },
+   "ent-permissoes": {
+    "r": "ok",
+    "nota": ""
+   },
+   "por-camera": {
+    "r": "ok",
+    "nota": ""
+   },
+   "por-atravessar": {
+    "r": "ok",
+    "nota": ""
+   },
+   "por-pular": {
+    "r": "na",
+    "nota": ""
+   },
+   "por-3d": {
+    "r": "falha",
+    "nota": "Ficou em modo simples. iOS 16.2, sem OffscreenCanvas."
+   },
+   "den-frente": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-girar": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-prof": {
+    "r": "falha",
+    "nota": "A cena parece uma tela plana curva."
+   },
+   "den-pontos": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-folha": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-fluidez": {
+    "r": "parcial",
+    "nota": "Esquentou depois de uns 3 minutos."
+   },
+   "sel-liga": {
+    "r": "ok",
+    "nota": ""
+   },
+   "sel-recorte": {
+    "r": "ok",
+    "nota": ""
+   },
+   "sel-fundo": {
+    "r": "ok",
+    "nota": ""
+   },
+   "fot-etiqueta": {
+    "r": "ok",
+    "nota": ""
+   },
+   "fot-espelho": {
+    "r": "ok",
+    "nota": ""
+   },
+   "fot-compartilhar": {
+    "r": "ok",
+    "nota": ""
+   },
+   "fot-salvar": {
+    "r": "ok",
+    "nota": ""
+   }
+  },
+  "notas": {
+   "facilidade": 4,
+   "imersao": 2,
+   "velocidade": 3,
+   "recomendaria": 3
+  },
+  "ua": "(dado fictício)"
+ },
+ {
+  "testador": "Rafael Costa",
+  "papel": "dev",
+  "aparelho": "Galaxy A54",
+  "sistema": "Android",
+  "navegador": "Chrome",
+  "rede": "Wi-Fi do museu",
+  "endereco": "publicado",
+  "primeiraVisita": true,
+  "tempoCarregar": 5.2,
+  "fonteProfundidade": "arquivo",
+  "criadoEm": "2026-10-20T11:40:00-03:00",
+  "veredito": "aprovado",
+  "gostou": "Leitor interno lê a placa em menos de um segundo.",
+  "problemas": "Recorte falha com janela atrás da pessoa.",
+  "sugestoes": "",
+  "id": "exemplo-20261020T114000",
+  "exemplo": true,
+  "obra": "independencia-ou-morte",
+  "itens": {
+   "qr-nativo": {
+    "r": "ok",
+    "nota": ""
+   },
+   "qr-interno": {
+    "r": "ok",
+    "nota": ""
+   },
+   "qr-estranho": {
+    "r": "ok",
+    "nota": ""
+   },
+   "ent-imagem": {
+    "r": "ok",
+    "nota": ""
+   },
+   "ent-permissoes": {
+    "r": "ok",
+    "nota": ""
+   },
+   "por-camera": {
+    "r": "ok",
+    "nota": ""
+   },
+   "por-atravessar": {
+    "r": "ok",
+    "nota": ""
+   },
+   "por-pular": {
+    "r": "na",
+    "nota": ""
+   },
+   "por-3d": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-frente": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-girar": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-prof": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-pontos": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-folha": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-fluidez": {
+    "r": "ok",
+    "nota": ""
+   },
+   "sel-liga": {
+    "r": "ok",
+    "nota": ""
+   },
+   "sel-recorte": {
+    "r": "parcial",
+    "nota": "Borda do cabelo some com luz de fundo forte."
+   },
+   "sel-fundo": {
+    "r": "ok",
+    "nota": ""
+   },
+   "fot-etiqueta": {
+    "r": "ok",
+    "nota": ""
+   },
+   "fot-espelho": {
+    "r": "ok",
+    "nota": ""
+   },
+   "fot-compartilhar": {
+    "r": "ok",
+    "nota": ""
+   },
+   "fot-salvar": {
+    "r": "ok",
+    "nota": ""
+   }
+  },
+  "notas": {
+   "facilidade": 5,
+   "imersao": 4,
+   "velocidade": 5,
+   "recomendaria": 4
+  },
+  "ua": "(dado fictício)"
+ },
+ {
+  "testador": "Marina Alves",
+  "papel": "equipe",
+  "aparelho": "iPhone 13",
+  "sistema": "iOS",
+  "navegador": "Safari",
+  "rede": "Wi-Fi do museu",
+  "endereco": "publicado",
+  "primeiraVisita": true,
+  "tempoCarregar": 6.8,
+  "fonteProfundidade": "arquivo",
+  "criadoEm": "2026-10-20T10:12:00-03:00",
+  "veredito": "aprovado",
+  "gostou": "A travessia pelo portal é o melhor momento. Todo mundo que viu comigo quis testar.",
+  "problemas": "",
+  "sugestoes": "Som ambiente dos cavalos ao atravessar.",
+  "id": "exemplo-20261020T101200",
+  "exemplo": true,
+  "obra": "independencia-ou-morte",
+  "itens": {
+   "qr-nativo": {
+    "r": "ok",
+    "nota": ""
+   },
+   "qr-interno": {
+    "r": "ok",
+    "nota": ""
+   },
+   "qr-estranho": {
+    "r": "na",
+    "nota": ""
+   },
+   "ent-imagem": {
+    "r": "ok",
+    "nota": ""
+   },
+   "ent-permissoes": {
+    "r": "ok",
+    "nota": ""
+   },
+   "por-camera": {
+    "r": "ok",
+    "nota": ""
+   },
+   "por-atravessar": {
+    "r": "ok",
+    "nota": ""
+   },
+   "por-pular": {
+    "r": "na",
+    "nota": ""
+   },
+   "por-3d": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-frente": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-girar": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-prof": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-pontos": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-folha": {
+    "r": "ok",
+    "nota": ""
+   },
+   "den-fluidez": {
+    "r": "ok",
+    "nota": ""
+   },
+   "sel-liga": {
+    "r": "ok",
+    "nota": ""
+   },
+   "sel-recorte": {
+    "r": "ok",
+    "nota": ""
+   },
+   "sel-fundo": {
+    "r": "ok",
+    "nota": ""
+   },
+   "fot-etiqueta": {
+    "r": "ok",
+    "nota": ""
+   },
+   "fot-espelho": {
+    "r": "ok",
+    "nota": ""
+   },
+   "fot-compartilhar": {
+    "r": "ok",
+    "nota": ""
+   },
+   "fot-salvar": {
+    "r": "ok",
+    "nota": ""
+   }
+  },
+  "notas": {
+   "facilidade": 5,
+   "imersao": 5,
+   "velocidade": 4,
+   "recomendaria": 5
+  },
+  "ua": "(dado fictício)"
+ }
+]
