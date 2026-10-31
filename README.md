@@ -754,23 +754,3 @@ Em [`src/obras.js`](src/obras.js), copie o bloco de *Independência ou Morte!* e
 - `pontos`: os pontos de interesse, com `u` e `v` de 0 a 1.
 
 Depois, gere o mapa de profundidade em `#/painel` e salve-o em `public/obras/<id>-profundidade.png`. Use só obras em **domínio público** ou com autorização do acervo.
-
----
-
-## Checklist de Entrega
-
-- [x] Código-fonte atualizado
-- [x] README completamente preenchido
-- [x] Versões das tecnologias registradas
-- [x] Arquitetura apresentada
-- [x] Funcionamento da RA explicado
-- [x] Estrutura de pastas documentada
-- [x] Scripts principais descritos
-- [x] Procedimento de instalação testado
-- [x] Procedimento de execução testado
-- [x] Screenshots reais adicionados
-- [x] Testes registrados
-- [x] Dispositivos testados informados (celulares reais em andamento)
-- [x] Limitações conhecidas documentadas
-- [ ] Evidência de funcionamento em celular (vídeo)
-- [x] Commits representam a evolução do projeto
