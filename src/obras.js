@@ -29,8 +29,8 @@ const commons = (arquivo, largura) => {
 // md5(nome do arquivo) → os dois primeiros caracteres formam a pasta do Commons
 const HASHES = {
   "Pedro_Américo_-_Independência_ou_Morte_-_Google_Art_Project.jpg": "7e",
-  "Independência_ou_Morte_(Pedro_Américo).jpg": "a6",
 };
+// O Commons só gera miniaturas em larguras padronizadas: 1920 e 3840 funcionam, 2560 responde 400.
 
 export const OBRAS = [
   {
@@ -47,11 +47,8 @@ export const OBRAS = [
     creditoImagem: "Imagem: Wikimedia Commons, domínio público",
     imagens: [
       "obras/independencia-ou-morte.jpg",
-      commons("Pedro_Américo_-_Independência_ou_Morte_-_Google_Art_Project.jpg", 2560),
       commons("Pedro_Américo_-_Independência_ou_Morte_-_Google_Art_Project.jpg", 1920),
-      commons("Independência_ou_Morte_(Pedro_Américo).jpg", 2560),
-      commons("Independência_ou_Morte_(Pedro_Américo).jpg", 1920),
-      commons("Independência_ou_Morte_(Pedro_Américo).jpg"),
+      commons("Pedro_Américo_-_Independência_ou_Morte_-_Google_Art_Project.jpg", 3840),
     ],
     profundidade: "obras/independencia-ou-morte-profundidade.png",
     ambiente: { campo: 90, horizonte: 0.46, perto: 3.2, longe: 42, olho: 1.6 },
