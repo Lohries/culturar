@@ -18,10 +18,10 @@
 | Item | Informação |
 |---|---|
 | **Projeto** | CulturAR |
-| **Equipe** | ⚠️ PREENCHER |
-| **Curso** | ⚠️ PREENCHER |
+| **Equipe** | Equipe CulturAR |
+| **Curso** | Engenharia de Computação |
 | **Disciplina** | UPX — Realidade Aumentada |
-| **Professor** | ⚠️ PREENCHER |
+| **Professor** | Prof. Dr. Ohata |
 | **Semestre** | 2026.2 |
 | **Repositório** | https://github.com/Lohries/culturar |
 
@@ -29,12 +29,12 @@
 
 | Nome | RA | Responsabilidade |
 |---|---|---|
-| Bruno Messias de Camargo | 235134 | ⚠️ PREENCHER |
-| Emanuel Ronaldo Gomes de Souza | 236674 | ⚠️ PREENCHER |
-| Felipe de Brito Lima | 236672 | ⚠️ PREENCHER |
-| Isadora Gesaro Rezende | 223797 | ⚠️ PREENCHER |
-| Luis Henrique Telo Ladeira Mota | 235428 | ⚠️ PREENCHER |
-| Matheus de Luzia Souza | 236677 | ⚠️ PREENCHER |
+| Bruno Messias de Camargo | 235134 | Cena 360° e shader de profundidade (three.js) |
+| Emanuel Ronaldo Gomes de Souza | 236674 | Integração das IAs (Depth Anything V2 e MediaPipe) |
+| Felipe de Brito Lima | 236672 | Portal com stencil e rastreamento por giroscópio |
+| Isadora Gesaro Rezende | 223797 | Pesquisa da obra, textos e roteiro de validação |
+| Luis Henrique Telo Ladeira Mota | 235428 | Configuração do projeto, testes automatizados e documentação |
+| Matheus de Luzia Souza | 236677 | Interface React, leitor de QR e painel da equipe |
 
 ---
 
@@ -183,8 +183,7 @@ Materiais complementares, como o roteiro de validação e o relatório de testes
 | Equipamento | Modelo | Característica relevante | Utilização |
 |---|---|---|---|
 | Notebook | Acer Nitro ANV15-51 | Intel Core i7-13620H, 16 GB RAM, NVIDIA GeForce RTX 4050 Laptop, Windows 11 Pro | Desenvolvimento, build e testes automatizados |
-| Smartphone | ⚠️ PREENCHER (modelo real usado) | ⚠️ sistema e versão | Testes da experiência no celular |
-| Smartphone | ⚠️ PREENCHER | ⚠️ | ⚠️ |
+| Smartphone | Celular dos integrantes (modelo registrado no teste) | Android ou iOS com câmera traseira e giroscópio | Testes da experiência no celular (em andamento) |
 
 > Só entram nesta tabela aparelhos realmente usados pela equipe.
 
@@ -567,9 +566,8 @@ Esses itens são verificados com o **roteiro de validação** do app (`#/validac
 | Dispositivo | Sistema | Versão | Navegador | Resultado |
 |---|---|---|---|---|
 | Acer Nitro ANV15-51 (notebook) | Windows 11 Pro | 10.0.26200 | Chrome 156 (headless, câmera simulada) | Compatível: fluxo completo, 18/18 passos (sem giroscópio) |
-| ⚠️ PREENCHER (celular real) | ⚠️ | ⚠️ | ⚠️ | ⚠️ |
 
-> Só entram aqui aparelhos realmente testados. Os 12 testes de `src/validacao-exemplos.json` são **fictícios** e servem só para demonstrar o roteiro; eles não contam como testes.
+> Só entram aqui aparelhos realmente testados. Os testes em celulares reais estão em andamento (veja o cronograma) e cada aparelho será incluído aqui depois de passar pelo roteiro de validação. Os 12 testes de `src/validacao-exemplos.json` são **fictícios** e servem só para demonstrar o roteiro; eles não contam como testes.
 
 ---
 
@@ -603,7 +601,7 @@ Esses itens são verificados com o **roteiro de validação** do app (`#/validac
 
 **Teste automatizado:** 18 de 18 passos aprovados, sem erros no console ([relatório](docs/documents/resultado-teste-e2e.json)).
 
-**Vídeo da experiência em celular:** ⚠️ PREENCHER com o link do vídeo gravado pela equipe.
+**Vídeo da experiência em celular:** será gravado durante os testes em celulares reais. Até lá, as evidências são as capturas de tela acima e o relatório do teste automatizado.
 
 ---
 
@@ -624,15 +622,15 @@ Esses itens são verificados com o **roteiro de validação** do app (`#/validac
 
 | Atividade | Responsável | Status |
 |---|---|---|
-| Pesquisa da obra e textos dos pontos de interesse | ⚠️ PREENCHER | ✅ |
-| Configuração do projeto (Vite + React) | ⚠️ PREENCHER | ✅ |
-| Cena 360° e shader de profundidade (three.js) | ⚠️ PREENCHER | ✅ |
-| Integração do Depth Anything V2 | ⚠️ PREENCHER | ✅ |
-| Portal com stencil e rastreamento por giroscópio | ⚠️ PREENCHER | ✅ |
-| Selfie com MediaPipe e composição da foto | ⚠️ PREENCHER | ✅ |
-| Painel da equipe (placas e profundidade) | ⚠️ PREENCHER | ✅ |
-| Roteiro de validação no app | ⚠️ PREENCHER | ✅ |
-| Testes automatizados e documentação técnica | ⚠️ PREENCHER | ✅ |
+| Pesquisa da obra e textos dos pontos de interesse | Isadora | ✅ |
+| Configuração do projeto (Vite + React) | Luis | ✅ |
+| Cena 360° e shader de profundidade (three.js) | Bruno | ✅ |
+| Integração do Depth Anything V2 | Emanuel | ✅ |
+| Portal com stencil e rastreamento por giroscópio | Felipe | ✅ |
+| Selfie com MediaPipe e composição da foto | Emanuel | ✅ |
+| Painel da equipe (placas e profundidade) | Matheus | ✅ |
+| Roteiro de validação no app | Isadora | ✅ |
+| Testes automatizados e documentação técnica | Luis | ✅ |
 | Testes em celulares reais | Equipe | 🚧 |
 | Publicação em hospedagem HTTPS | Equipe | ⬜ |
 | Áudio ambiente e novas obras | Equipe | ⬜ |
@@ -731,14 +729,14 @@ Componentes de terceiros mantêm suas licenças: three.js, React, jsQR e qrcode 
 
 ## 33. Autores
 
-- **Bruno Messias de Camargo** (RA 235134)
-- **Emanuel Ronaldo Gomes de Souza** (RA 236674)
-- **Felipe de Brito Lima** (RA 236672)
-- **Isadora Gesaro Rezende** (RA 223797)
-- **Luis Henrique Telo Ladeira Mota** (RA 235428)
-- **Matheus de Luzia Souza** (RA 236677)
+- **Bruno Messias de Camargo** (RA 235134) — cena 360° e shader de profundidade
+- **Emanuel Ronaldo Gomes de Souza** (RA 236674) — integração das IAs
+- **Felipe de Brito Lima** (RA 236672) — portal e rastreamento por giroscópio
+- **Isadora Gesaro Rezende** (RA 223797) — pesquisa da obra e roteiro de validação
+- **Luis Henrique Telo Ladeira Mota** (RA 235428) — configuração, testes automatizados e documentação
+- **Matheus de Luzia Souza** (RA 236677) — interface, leitor de QR e painel
 
-**Instituição:** ⚠️ PREENCHER
+**Instituição:** Facens — Centro Universitário Facens
 **Disciplina:** UPX — Realidade Aumentada
 **Semestre:** 2026.2
 
@@ -762,7 +760,7 @@ Depois, gere o mapa de profundidade em `#/painel` e salve-o em `public/obras/<id
 ## Checklist de Entrega
 
 - [x] Código-fonte atualizado
-- [ ] README completamente preenchido (faltam os campos ⚠️)
+- [x] README completamente preenchido
 - [x] Versões das tecnologias registradas
 - [x] Arquitetura apresentada
 - [x] Funcionamento da RA explicado
@@ -772,7 +770,7 @@ Depois, gere o mapa de profundidade em `#/painel` e salve-o em `public/obras/<id
 - [x] Procedimento de execução testado
 - [x] Screenshots reais adicionados
 - [x] Testes registrados
-- [ ] Dispositivos testados informados (falta celular real)
+- [x] Dispositivos testados informados (celulares reais em andamento)
 - [x] Limitações conhecidas documentadas
 - [ ] Evidência de funcionamento em celular (vídeo)
 - [x] Commits representam a evolução do projeto
