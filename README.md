@@ -29,10 +29,12 @@
 
 | Nome | RA | Responsabilidade |
 |---|---|---|
-| ⚠️ PREENCHER | ⚠️ | ⚠️ ex.: motor 3D (three.js), shaders e portal |
-| ⚠️ PREENCHER | ⚠️ | ⚠️ ex.: integração das IAs (profundidade e recorte) |
-| ⚠️ PREENCHER | ⚠️ | ⚠️ ex.: interface React, placas com QR e roteiro de validação |
-| ⚠️ PREENCHER | ⚠️ | ⚠️ ex.: pesquisa da obra, textos e testes em celular |
+| Bruno Messias de Camargo | 235134 | ⚠️ PREENCHER |
+| Emanuel Ronaldo Gomes de Souza | 236674 | ⚠️ PREENCHER |
+| Felipe de Brito Lima | 236672 | ⚠️ PREENCHER |
+| Isadora Gesaro Rezende | 223797 | ⚠️ PREENCHER |
+| Luis Henrique Telo Ladeira Mota | 235428 | ⚠️ PREENCHER |
+| Matheus de Luzia Souza | 236677 | ⚠️ PREENCHER |
 
 ---
 
@@ -729,9 +731,12 @@ Componentes de terceiros mantêm suas licenças: three.js, React, jsQR e qrcode 
 
 ## 33. Autores
 
-- ⚠️ **PREENCHER** — responsabilidade
-- ⚠️ **PREENCHER** — responsabilidade
-- ⚠️ **PREENCHER** — responsabilidade
+- **Bruno Messias de Camargo** (RA 235134)
+- **Emanuel Ronaldo Gomes de Souza** (RA 236674)
+- **Felipe de Brito Lima** (RA 236672)
+- **Isadora Gesaro Rezende** (RA 223797)
+- **Luis Henrique Telo Ladeira Mota** (RA 235428)
+- **Matheus de Luzia Souza** (RA 236677)
 
 **Instituição:** ⚠️ PREENCHER
 **Disciplina:** UPX — Realidade Aumentada
