@@ -1,0 +1,27 @@
+flowchart LR
+  VIS([Visitante])
+  EQ([Equipe do museu])
+  TES([Testador])
+  subgraph SIS[Sistema CulturAR]
+    direction TB
+    subgraph EXP[Experiência]
+      UC1(Ler QR code da obra)
+      UC2(Atravessar o portal)
+      UC3(Olhar a cena em 360°)
+      UC4(Ler pontos de interesse)
+      UC5(Tirar selfie na cena)
+      UC6(Compartilhar a foto)
+    end
+    subgraph ADM[Painel da equipe]
+      UC7(Gerar placas com QR)
+      UC8(Gerar mapa de profundidade)
+    end
+    subgraph VALID[Roteiro de validação]
+      UC9(Registrar teste)
+      UC10(Exportar resultados em CSV)
+    end
+  end
+  VIS --- UC1 & UC2 & UC3 & UC4 & UC5 & UC6
+  EQ --- UC7 & UC8
+  TES --- UC9 & UC10
+  TES -.->|também faz a experiência| VIS

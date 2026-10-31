@@ -1,0 +1,36 @@
+flowchart TB
+  V([Visitante]) -->|aponta a câmera| P[Placa com QR code]
+  P -->|abre https://site/#/obra/id| APP
+  HOST[Hospedagem estática HTTPS<br/>Netlify · Vercel · GitHub Pages] -->|HTML, JS, imagem e PNG da obra| APP
+
+  subgraph NAV[Navegador do celular]
+    APP[App.jsx · rotas por hash] --> OBRA[pages/Obra.jsx<br/>experiência]
+    APP --> OUTRAS[Home · Scanner · Painel · Validação]
+    OBRA --> ENG[engine/Engine.js<br/>cena three.js · WebGL]
+    ENG --> ORI[engine/orientacao.js<br/>giroscópio → câmera virtual]
+    OBRA --> PROF[engine/profundidade.js]
+    PROF --> WK[Web Worker<br/>Transformers.js + ONNX WASM]
+    PROF <--> IDB[(IndexedDB<br/>cache)]
+    OBRA --> REC[engine/recorte.js<br/>MediaPipe]
+    OUTRAS <--> LS[(localStorage<br/>testes)]
+  end
+
+  subgraph HW[Sensores do celular]
+    CT[Câmera traseira]
+    CF[Câmera frontal]
+    GIR[Giroscópio]
+    GPU[GPU]
+  end
+  OBRA --- CT
+  REC --- CF
+  ORI --- GIR
+  ENG --- GPU
+
+  subgraph EXT[Serviços externos · só quando falta arquivo local]
+    WM[Wikimedia Commons<br/>imagem da obra]
+    HF[Hugging Face Hub<br/>Depth Anything V2]
+    MP[jsDelivr + Google Storage<br/>MediaPipe]
+  end
+  OBRA -.-> WM
+  WK -.-> HF
+  REC -.-> MP

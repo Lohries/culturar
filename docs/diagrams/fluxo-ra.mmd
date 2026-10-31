@@ -1,0 +1,25 @@
+flowchart TD
+  A[Visitante lê o QR code da placa] --> B[Navegador abre #/obra/id]
+  B --> C[Carrega a imagem da obra<br/>arquivo local → Wikimedia]
+  C --> D[Engine cria a casca 360° da pintura<br/>malha lon × lat no WebGL]
+  D --> E[Busca o mapa de profundidade]
+  E --> E1{PNG pré-calculado?}
+  E1 -- sim --> G
+  E1 -- não --> E2{Cache no IndexedDB?}
+  E2 -- sim --> G
+  E2 -- não --> E3[Depth Anything V2 no aparelho<br/>Web Worker + WASM]
+  E3 --> G[Vertex shader empurra cada pixel<br/>entre perto e longe]
+  B --> H[Toque em Entrar no quadro]
+  H --> I[Pede câmera traseira e<br/>permissão de movimento]
+  I --> J[Vídeo da câmera ao fundo +<br/>canvas WebGL transparente por cima]
+  J --> K[Moldura dourada 3D flutua à frente<br/>janela recortada por stencil]
+  K --> L[Giroscópio atualiza a câmera virtual<br/>3DoF a cada quadro]
+  L --> M{Toque na moldura}
+  M --> N[Animação de travessia<br/>câmera atravessa a janela]
+  N --> O[Dentro da cena: olhar em volta 360°<br/>pontos de interesse projetados na tela]
+  G -.->|relevo pronto| O
+  O --> P{Selfie?}
+  P -- sim --> Q[Câmera frontal + MediaPipe recortam a pessoa<br/>recorte vira textura na frente da cena]
+  P -- não --> R
+  Q --> R[Obturador: captura o canvas e<br/>compõe a foto com a etiqueta do museu]
+  R --> S[Compartilhar pelo menu do celular ou salvar]

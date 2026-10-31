@@ -1,0 +1,19 @@
+flowchart LR
+  QR[[QR code da placa]] --> OBRA
+  HOME["#/ Acervo"] -->|Escanear QR code| SCAN["#/escanear Leitor"]
+  SCAN -->|QR válido| OBRA
+  HOME -->|cartão da obra| OBRA
+  subgraph OBRA["#/obra/id Experiência"]
+    direction LR
+    EN[Entrada<br/>etiqueta] -->|Entrar no quadro| PO[Portal]
+    PO -->|Atravessar| DE[Dentro da cena]
+    PO -->|Pular| DE
+    DE <-->|Olhar / Selfie| SE[Selfie]
+    DE -->|obturador| FO[Foto]
+    SE -->|obturador| FO
+    FO -->|Voltar à cena| DE
+  end
+  OBRA -->|voltar| HOME
+  PAINEL["#/painel Equipe"] -->|Roteiro de validação| VAL["#/validacao Roteiro"]
+  VAL -->|Começar teste| OBRA
+  OBRA -->|Roteiro durante o teste| VAL
