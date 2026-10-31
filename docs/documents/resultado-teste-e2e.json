@@ -1,0 +1,98 @@
+{
+ "data": "2026-10-31T14:05:51.515Z",
+ "navegador": "Chrome/156.0.8078.48",
+ "url": "http://localhost:5174",
+ "testes": [
+  {
+   "id": "carrega-app",
+   "ok": true,
+   "obs": "Acervo renderiza"
+  },
+  {
+   "id": "painel-placa",
+   "ok": true,
+   "obs": "Placa com QR gerada"
+  },
+  {
+   "id": "painel-url-qr",
+   "ok": true,
+   "obs": "http://localhost:5174/#/obra/independencia-ou-morte"
+  },
+  {
+   "id": "ia-profundidade",
+   "ok": true,
+   "obs": "Pronto: 1024 × 548px. Salve como public/obras/independencia-ou-morte-profundidade.png (43 s, incluindo download do modelo)"
+  },
+  {
+   "id": "obra-carrega",
+   "ok": true,
+   "obs": "Botão “Entrar no quadro” ativo"
+  },
+  {
+   "id": "portal-abre",
+   "ok": true,
+   "obs": "Moldura aparece"
+  },
+  {
+   "id": "camera-traseira",
+   "ok": true,
+   "obs": "Vídeo da câmera atrás do portal (câmera simulada)"
+  },
+  {
+   "id": "profundidade-carrega",
+   "ok": true,
+   "obs": "Cena em 3D"
+  },
+  {
+   "id": "travessia",
+   "ok": true,
+   "obs": "Entra na cena após a animação"
+  },
+  {
+   "id": "pontos-visiveis",
+   "ok": true,
+   "obs": "4 de 4 pontos visíveis olhando para a frente"
+  },
+  {
+   "id": "olhar-em-volta",
+   "ok": true,
+   "obs": "Arrastar gira a vista (modo sem giroscópio)"
+  },
+  {
+   "id": "ponto-de-interesse",
+   "ok": true,
+   "obs": "D. Pedro I"
+  },
+  {
+   "id": "sobre-a-obra",
+   "ok": true,
+   "obs": "Painel “Sobre a obra”"
+  },
+  {
+   "id": "selfie-liga",
+   "ok": true,
+   "obs": "Câmera frontal + MediaPipe carregados (câmera simulada, sem pessoa real)"
+  },
+  {
+   "id": "foto-etiqueta",
+   "ok": true,
+   "obs": "Foto composta com etiqueta (780×1798)"
+  },
+  {
+   "id": "leitor-qr-camera",
+   "ok": true,
+   "obs": "Leitor abre a câmera"
+  },
+  {
+   "id": "qr-obra-inexistente",
+   "ok": true,
+   "obs": "Aviso para obra fora do acervo"
+  },
+  {
+   "id": "validacao-diagnostico",
+   "ok": true,
+   "obs": "9 anotações automáticas, 8 passos pré-marcados"
+  }
+ ],
+ "errosNoConsole": []
+}
