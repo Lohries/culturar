@@ -18,7 +18,7 @@
 | Item | Informação |
 |---|---|
 | **Projeto** | CulturAR |
-| **Equipe** | Equipe CulturAR |
+| **Equipe** | Amostradinhos |
 | **Curso** | Engenharia de Computação |
 | **Disciplina** | UPX — Realidade Aumentada |
 | **Professor** | Prof. Dr. Ohata |
